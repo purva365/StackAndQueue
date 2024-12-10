@@ -1,7 +1,9 @@
 #include <iostream>
 #include <stack>
 #include <vector>
+//for big o tc use stack approach
 using namespace std;
+//brute force
 int subaraay(int arr[], int n) {
     int sum=0;
  for(int i=0;i<n;i++)
